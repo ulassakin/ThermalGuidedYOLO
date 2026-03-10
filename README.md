@@ -5,6 +5,12 @@ It improves bounding box localization and can optionally add thermal-only detect
 
 ---
 
+## Example Result
+
+![Example Result](Examples/result.png)
+
+---
+
 ## Key Idea
 
 RGB detectors can sometimes produce loose or fragmented detections or miss hot regions entirely.  
