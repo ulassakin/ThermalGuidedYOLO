@@ -56,7 +56,7 @@ python thermal_guided_refine.py \
   --model best.pt \
   --rgb path/to/rgb.jpg \
   --thermal path/to/thermal.png
-
+```
 ---
 
 ## Applications
