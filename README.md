@@ -40,6 +40,16 @@ This pipeline uses thermal information at **inference time** to refine YOLO dete
 
 ---
 
+## Detection Model
+
+The RGB detector used in this project is a **YOLO11s model fine-tuned for fire and smoke detection**.
+
+The model was trained on a **~24,000 image dataset** constructed by combining and curating multiple public fire and smoke datasets.  
+This diverse dataset includes different fire scenarios, environments, and smoke patterns.
+
+The fine-tuned YOLO11s model is used to generate initial RGB detections, which are then refined using thermal hotspot information.
+
+---
 ## Features
 
 - Fire and smoke detection refinement using RGB + thermal fusion
