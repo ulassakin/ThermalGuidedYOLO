@@ -1,7 +1,7 @@
 # ThermalGuidedYOLO
 
-ThermalGuidedYOLO is a lightweight RGB–thermal fusion pipeline that refines YOLO detections using thermal hotspot information.  
-It improves bounding box localization and can optionally add thermal-only detections without retraining a multimodal model.
+ThermalGuidedYOLO is a lightweight RGB–thermal fusion pipeline designed for **fire and smoke detection**.  
+It refines YOLO detections using thermal hotspot information to improve localization of **fire and smoke regions**, and can optionally add thermal-only detections without retraining a multimodal model.
 
 ---
 
