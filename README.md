@@ -13,8 +13,15 @@ It refines YOLO detections using thermal hotspot information to improve localiza
 
 ## Key Idea
 
-RGB detectors can sometimes produce loose or fragmented detections or miss hot regions entirely.  
-Thermal imagery provides strong evidence of high-temperature areas.
+RGB-based fire and smoke detectors can sometimes produce loose detections,
+fragment smoke regions, or miss early fire hotspots.
+
+Thermal imagery provides strong evidence of high-temperature regions,
+which can help localize **active fire areas** and refine the bounding boxes
+predicted by RGB detectors.
+
+By combining RGB detection with thermal hotspot information,
+the system improves **fire localization and detection reliability**.
 
 This pipeline uses thermal information at **inference time** to refine YOLO detections and improve localization.
 
