@@ -40,12 +40,12 @@ This pipeline uses thermal information at **inference time** to refine YOLO dete
 
 ## Features
 
-- RGB + Thermal detection refinement
-- Dynamic thermal hotspot extraction
-- Blob-based hotspot analysis
-- Bounding box tightening or expansion
-- Optional thermal-only detections
-- Visualization for debugging and comparison
+- Fire and smoke detection refinement using RGB + thermal fusion
+- Thermal hotspot extraction for fire localization
+- Blob-based thermal hotspot analysis
+- Bounding box tightening or expansion using thermal masks
+- Optional thermal-only detections for missed fire hotspots
+- Visualization for debugging fire/smoke detections
 
 ---
 
