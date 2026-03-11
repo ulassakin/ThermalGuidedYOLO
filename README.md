@@ -56,3 +56,15 @@ python thermal_guided_refine.py \
   --model best.pt \
   --rgb path/to/rgb.jpg \
   --thermal path/to/thermal.png
+
+---
+
+## Applications
+
+This approach can be useful in several fire monitoring scenarios where RGB and thermal cameras are available:
+
+- **Wildfire detection systems**
+- **Early fire hotspot detection**
+- **UAV-based fire monitoring**
+- **RGB–thermal surveillance systems**
+- **Forest and industrial fire monitoring**
